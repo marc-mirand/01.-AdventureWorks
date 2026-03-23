@@ -1,6 +1,6 @@
 # Análise de Dados de Vendas - AdventureWorksDW2022
 
-Este repositório contém uma série de consultas SQL desenvolvidas para extrair insights estratégicos do banco de dados **AdventureWorksDW2022** (Data Warehouse da Microsoft). O projeto simula cenários reais de Business Intelligence, focando em performance de vendas, comportamento do cliente e análise geográfica.
+Este repositório contém uma série de consultas SQL desenvolvidas para extrair insights do banco de dados **AdventureWorksDW2022** (Data Warehouse da Microsoft). O projeto simula cenários reais de Business Intelligence, focando em performance de vendas, comportamento do cliente e análise geográfica.
 
 ## Objetivos do Projeto
 - Demonstrar proficiência em **SQL Server (T-SQL)**.
