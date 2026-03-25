@@ -45,6 +45,24 @@ Este repositório contém uma série de consultas SQL desenvolvidas para extrair
 - **Insight:** Separação de clientes recorrentes para estratégias de retenção e LTV.
 <img width="465" height="719" alt="image" src="https://github.com/user-attachments/assets/b88446a5-e9b9-4023-9ed0-3948852813f6" />
 
+### 6. Ranking de Produtos Mais Vendidos (Window Function)
+- **Arquivo:** `06_ranking_produtos.sql`
+- **Habilidades:** Uso da Window Function `RANK()` para classificação dinâmica.
+- **Insight:** Ranking de performance de produtos por volume de pedidos e faturamento.
+<img width="482" height="122" alt="image" src="https://github.com/user-attachments/assets/2e062712-e9e8-4cde-b598-cc1b0b98e856" />
+
+### 7. Participação % por Categoria (Market Share Interno)
+- **Arquivo:** `07_participacao_categoria.sql`
+- **Habilidades:** Window Function com agregação (`SUM OVER`) para cálculo de proporção.
+- **Insight:** Análise de representatividade de cada categoria no faturamento total da empresa.
+<img width="430" height="86" alt="image" src="https://github.com/user-attachments/assets/dfde058d-fcb0-4f82-b519-65ed2cd23c03" />
+
+### 8. Crescimento Mensal de Vendas (Month-over-Month)
+- **Arquivo:** `08_crescimento_mensal_mom.sql`
+- **Habilidades:** Window Function `LAG()` para comparação entre períodos (Time Intelligence).
+- **Insight:** Cálculo da variação percentual (MoM) para identificar aceleração ou retração das vendas.
+<img width="402" height="565" alt="image" src="https://github.com/user-attachments/assets/cbbd7428-d9d5-4749-8fd3-8cd7115b4275" />
+
 ## Como visualizar os resultados
 1. Certifique-se de ter o banco `AdventureWorksDW2022` instalado em seu SQL Server.
 2. Abra os arquivos `.sql` no SSMS.
